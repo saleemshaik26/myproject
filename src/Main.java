@@ -1,7 +1,10 @@
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("new git code is added");
+        System.out.println("changes made to the main file");
+        System.out.println("welcome to git hub");
         Wall wall1 = new Wall("east");
         Wall wall2 = new Wall("west");
         Wall wall3 = new Wall("north");
