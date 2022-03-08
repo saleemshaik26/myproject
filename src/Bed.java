@@ -7,6 +7,7 @@ public class Bed {
     private int sheets;
 
     public Bed(String style, int height, int quilt, int pillows, int sheets) {
+        System.out.println("hello saleem");
         this.style = style;
         this.height = height;
         this.quilt = quilt;
