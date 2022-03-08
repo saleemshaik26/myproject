@@ -16,5 +16,11 @@ public class Main {
 
         bedroom.makeBed();
         bedroom.getLamp().turnOn();
+        addNum(10,20);
+        }
+        public static void addNum(int a,int b){
+            int c = a+b;
+            System.out.println("sum of "+a+ " and "+b+ " = "+c);
+        }
     }
-}
+
