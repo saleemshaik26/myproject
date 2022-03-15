@@ -10,6 +10,7 @@ public class Bedroom {
         private Lamp lamp;
 
     public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp) {
+        System.out.println("new feature 2 for github");
         this.name = name;
         this.wall1 = wall1;
         this.wall2 = wall2;
